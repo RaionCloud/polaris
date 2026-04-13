@@ -2,7 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "Leony Polaris",
+    title: "Raion Polaris",
     description: "Guideline",
     lang: 'zh_CN',
     head: [
@@ -16,7 +16,7 @@ export default defineConfig({
         nav: [
             {text: '首页', link: '/'},
             {text: '指南', link: '/markdown-examples'},
-            {text: 'BLOG', link: 'https://journey.leony.cloud'}
+            {text: 'BLOG', link: 'https://journey.raion.cloud'}
         ],
 
         search: {
@@ -54,7 +54,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/synn/polaris.leony'},
+            {icon: 'github', link: 'https://github.com/synn/polaris.raion'},
             {icon: 'wechat', link: 'https://github.com/vuejs/vitepress'}
         ]
     }

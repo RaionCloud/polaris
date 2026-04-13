@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Leony Polaris"
+  name: "Raion Polaris"
   text: "Guideline"
   tagline: My great project tagline
   image:
