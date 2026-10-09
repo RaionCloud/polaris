@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "Raion Polaris"
   text: "Guideline"
-  tagline: My great project tagline
+  tagline: 一场伟大的旅程要开始了
   image:
     src: /brand-icon.svg
     alt: brand logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速开始
+      link: /guideline/intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开发历史
+      link: /history
 
 features:
   - title: Feature A

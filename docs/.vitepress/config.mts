@@ -14,8 +14,8 @@ export default defineConfig({
         logo: '/brand-icon.svg',
 
         nav: [
-            {text: '首页', link: '/'},
-            {text: '指南', link: '/markdown-examples'},
+            {text: 'Home', link: '/'},
+            {text: 'Guideline', link: '/guideline/intro'},
             {text: 'BLOG', link: 'https://journey.raion.cloud'}
         ],
 
@@ -47,14 +47,14 @@ export default defineConfig({
             {
                 text: '指南',
                 items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
+                    {text: '快速开始', link: '/guideline/intro'},
+                    {text: '界面', link: '/guideline/coda'}
                 ]
             }
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/synn/polaris.raion'},
+            {icon: 'github', link: 'https://github.com/RaionCloud/polaris'},
             {icon: 'wechat', link: 'https://github.com/vuejs/vitepress'}
         ]
     }

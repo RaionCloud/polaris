@@ -9,12 +9,14 @@ const { Layout } = DefaultTheme
   <!-- 全局底部备案（所有页面都显示，不报错） -->
   <footer class="global-footer">
     <div class="footer-inner">
-      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">冀ICP备2025115176号-5</a>
-      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=13050302002061" target="_blank" rel="noopener" class="police-beian">
-        <img src="/ga_icon.png" alt="公安备案图标" />
-        冀公网安备13050302002061号
+      <span>2025-{{ new Date().getFullYear() }} © Huiling co., ltd., authored by Lionel Sung</span>
+    </div>
+    <div class="footer-inner">
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2026044916号</a>
+      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=33010502013170" target="_blank" rel="noopener" class="police-beian">
+<!--        <img src="/ga_icon.png" alt="公安备案图标" />-->
+        浙公网安备33010502013170号
       </a>
-      <span>© Aopan co., ltd.,</span>
     </div>
   </footer>
 </template>
@@ -24,6 +26,8 @@ const { Layout } = DefaultTheme
   width: 100%;
   padding: 20px 0;
   margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-inner {
