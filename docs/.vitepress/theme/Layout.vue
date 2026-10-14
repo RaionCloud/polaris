@@ -9,7 +9,7 @@ const { Layout } = DefaultTheme
   <!-- 全局底部备案（所有页面都显示，不报错） -->
   <footer class="global-footer">
     <div class="footer-inner">
-      <span>2025-{{ new Date().getFullYear() }} © Huiling co., ltd., authored by Lionel Sung</span>
+      <span>2025-{{ new Date().getFullYear() }} © Huiling Technology co., ltd. authored by Lionel Sung</span>
     </div>
     <div class="footer-inner">
       <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">浙ICP备2026044916号</a>
